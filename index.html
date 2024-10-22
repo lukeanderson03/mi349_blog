@@ -11,16 +11,69 @@
     <header>
         <h1>Luke's Blog</h1>
         <p>MSU MI-349</p>
+        <nav>
+            <ul>
+                <li><a href="/index.html">home</a></li>
+                <li><a href="/about.html">about</a></li>
+                <li><a href="/contact.html">contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="/index.html">home</a></li>
-            <li><a href="/about.html">about</a></li>
-            <li><a href="/contact.html">contact</a></li>
-        </ul>
-    </nav>
-    <section>
-        <article>
+    <section id="blog">
+        <article class="blog-post">
+            <h2>Pain</h2>
+            <address>Luke Anderson</address>
+            <time datetime="2024-10-13">October 13, 2024</time>
+            <img src="/images/spencer.jpeg"
+                alt="Spencer Torkelson taking off his batting gloves after striking out in the seventh inning">
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Win/loss</th>
+                    <th>Score</th>
+                </tr>
+                <tr>
+                    <td><time datetime="2024-10-5">October 5, 2024</time></td>
+                    <td>Loss</td>
+                    <td>7-0</td>
+                </tr>
+                <tr>
+                    <td><time datetime="2024-10-7">October 7, 2024</time></td>
+                    <td>Win</td>
+                    <td>3-0</td>
+                </tr>
+                <tr>
+                    <td><time datetime="2024-10-9">October 9, 2024</time></td>
+                    <td>Win</td>
+                    <td>3-0</td>
+                </tr>
+                <tr>
+                    <td><time datetime="10-10-2024">October 10, 2024</time></td>
+                    <td>Loss</td>
+                    <td>5-4</td>
+                </tr>
+                <tr>
+                    <td><time datetime="10-12-2024">October 12, 2024</time></td>
+                    <td>Loss</td>
+                    <td>7-3</td>
+                </tr>
+            </table>
+            <p>Yesterday afternoon (Saturday, October 12), the Detroit Tigers lost to the Cleveland Guardians 7-3. The
+                game started slowly with Tarik Skubal (Tigers) and Matthew Boyd (Guardians) pitching three shut-out
+                innings. However, in the top of the fourth inning, Kerry Carpenter came in to pinch hit and hit a
+                go-ahead, RBI single into right-center field. This scored Trey Sweeney from first base with a close play
+                at the plate. Later in the bottom of the fifth, Tarik Skubal loaded the bases for the Guardians with one
+                out. He faced Jose Ramirez who he hit with a pitch allowing a run to score. After, Lane Thomas came up
+                to the plate. Lane Thomas proceeded to hit a grand slam, scoring four runs and giving the Guardians a
+                4-run lead. This hit completely changed the vibe of the Tigers dugout and the outcome of the game. The
+                Tigers never bounced back fully after this, scoring just two more runs while also allowing two more to
+                the Guardians. Whatever momentum the Tigers still had was quickly put out when Emmanuel Clase came in to
+                pitch against them in the ninth inning. He recorded a six-out save to secure the Guardians the series
+                win and a spot against the Yankees in the ALCS. While this was a disappointing ending for the Tigers, no
+                one had expected them to reach it this far. If the team adds a few players this offseason they have a
+                real chance to be contenders in the playoffs next year.</p>
+        </article>
+        <article class="blog-post">
             <h2>The Detroit Tigers Improbable Playoff Run</h2>
             <address>Luke Anderson</address>
             <time datetime="2024-10-11">October 11, 2024</time>
@@ -39,27 +92,15 @@
                 mound.
             </p>
         </article>
-        <article>
-            <h2>Pain</h2>
-            <address>Luke Anderson</address>
-            <time datetime="2024-10-13">October 13, 2024</time>
-            <img src="/images/spencer.jpeg"
-                alt="Spencer Torkelson taking off his batting gloves after striking out in the seventh inning">
-            <p>Yesterday afternoon (Saturday, October 12), the Detroit Tigers lost to the Cleveland Guardians 7-3. The
-                game started slowly with Tarik Skubal (Tigers) and Matthew Boyd (Guardians) pitching three shut-out
-                innings. However, in the top of the fourth inning, Kerry Carpenter came in to pinch hit and hit a
-                go-ahead, RBI single into right-center field. This scored Trey Sweeney from first base with a close play
-                at the plate. Later in the bottom of the fifth, Tarik Skubal loaded the bases for the Guardians with one
-                out. He faced Jose Ramirez who he hit with a pitch allowing a run to score. After, Lane Thomas came up
-                to the plate. Lane Thomas proceeded to hit a grand slam, scoring four runs and giving the Guardians a
-                4-run lead. This hit completely changed the vibe of the Tigers dugout and the outcome of the game. The
-                Tigers never bounced back fully after this, scoring just two more runs while also allowing two more to
-                the Guardians. Whatever momentum the Tigers still had was quickly put out when Emmanuel Clase came in to
-                pitch against them in the ninth inning. He recorded a six-out save to secure the Guardians the series
-                win and a spot against the Yankees in the ALCS. While this was a disappointing ending for the Tigers, no
-                one had expected them to reach it this far. If the team adds a few players this offseason they have a
-                real chance to be contenders in the playoffs next year.</p>
-        </article>
+    </section>
+    <section id="newsletter">
+        <form>
+            <label>
+                Sign up for our newsletter:
+                <input type="text">
+            </label>
+            <button>Subscribe</button>
+        </form>
     </section>
 </body>
 
