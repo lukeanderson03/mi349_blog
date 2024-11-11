@@ -32,6 +32,14 @@ a {
     color: inherit;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #242424;
+}
+
 nav h1 {
     font-size: 3em;
     margin: 0;
@@ -93,4 +101,8 @@ table th {
 #about-list {
     margin: 0px;
     flex: 1;
+}
+
+.about-form label input button {
+    padding: 10px;
 }
